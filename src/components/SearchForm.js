@@ -2,7 +2,7 @@ import React from "react";
 import { useGlobalContext } from "../context";
 
 const SearchForm = () => {
-  const { searchTerm, setSearchTerm } = useGlobalContext();
+  const { setSearchTerm } = useGlobalContext();
   const inputRef = React.useRef("");
 
   const handleSubmit = (e) => {

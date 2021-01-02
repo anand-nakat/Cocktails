@@ -17,7 +17,7 @@ const Cocktail = ({
         <h3>{name}</h3>
         <h4>{glass}</h4>
         <p>{alcoholic}</p>
-        <Link to={`/cocktail:${id}`} className="btn btn-primary btn-details">
+        <Link to={`/cocktail/${id}`} className="btn btn-primary btn-details">
           details
         </Link>
       </div>
